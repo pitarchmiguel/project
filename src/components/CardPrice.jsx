@@ -3,6 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 function CardPrice({plan, description, priceOld, priceNew, features}) {
     return (
         <div className="border-1 p-8 basis-1/2 md:max-w-2/5">
+            
             <h3 className="font-bold text-xl mb-5">{plan}</h3>
             <h4>{description}</h4>
             <p className="mt-5 mb-5 text-xl">
