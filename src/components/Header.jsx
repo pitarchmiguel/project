@@ -2,7 +2,7 @@ function Header() {
     return (
         <header className="min-h-screen flex flex-col md:p-5 items-center justify-center gap-12">
 
-            <h1 className="md:text-5xl text-4xl font-black text-center">
+            <h1 className="md:text-6xl text-5xl font-black text-center">
                 Si no estás en internet, 
                 <span className="text-pink-700"> no existes</span>
             </h1>

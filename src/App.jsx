@@ -1,11 +1,14 @@
 import Header from './components/Header.jsx'
 import CardPrice from './components/CardPrice.jsx'  
+import Benefits from './components/Benefits.jsx'
 
 function App() {
 
   return (
     <>
       <Header />
+      <Benefits />
+      <div className="gap-5 flex flex-col md:flex-row justify-center">
       <CardPrice 
         plan="Plan Básico" 
         description="Perfecto para emprendedores y pequeñas empresas " 
@@ -34,6 +37,7 @@ function App() {
           "Entrega en 15 días"
         ]}
       />
+      </div>
     </>
   )
 }
