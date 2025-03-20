@@ -2,7 +2,7 @@ import Card from "./Card.jsx"
 
 function Benefits() {
     return (
-        <div className="md:p-5 items-center justify-center gap-12 bg-neutral-900 px-4 py-20 min-h-[80vh]">
+        <div className=" items-center justify-center gap-12 min-h-[80vh]">
             <h4 className="text-4xl font-black text-center">
                 Consigue 
                 <span className="text-emerald-400"> más visibilidad </span> 
